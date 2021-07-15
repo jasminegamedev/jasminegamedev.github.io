@@ -1,1 +1,1 @@
-This is the source code for my personal website, https://jasmine.games/ 
+This is the source code for my personal website, https://jasmine.github.io/ 
