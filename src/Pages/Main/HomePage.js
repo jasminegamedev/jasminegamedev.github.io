@@ -18,7 +18,7 @@ const useStyles = createUseStyles({
         margin: '20px',
         fontSize: '24px',
         textAlign: 'left',
-        height: '260px'
+        minHeight: '260px'
     },
     link: {
         color: 'cyan',
@@ -40,9 +40,9 @@ export const HomePage = () => {
                 <p className={classes.text}>
                     <img className={classes.image} src={"/logo512.png"} alt={""} align="left"/>
                     <b>Hello there!</b>
-                    <br/>My name's Jasmine! I'm a 24 year old Software and Game Developer who specializes in Gameplay and UI Programming. I'm currently work full time as an Enterprise Software Engineer, but I am currently looking for new opportunities!
+                    <br/>My name's Jasmine! I'm a 24 year old Software and Game Developer who specializes in Gameplay and UI Programming. I have over 4 years of software development experience, and I am currently looking for new opportunities in the games industry!
                     <br/>I love video games and game development, and have been involved in game development and game modding as a hobbyist for almost a decade!
-                    <br/>If you'd like to see some of my past work, I'd encourage you to check out my <a className={classes.link} href="#/portfolio">Portfolio</a>.
+                    <br/>If you'd like to see some of my previous work, I'd encourage you to check out my <a className={classes.link} href="#/portfolio">Portfolio</a>.
                 </p>
             </span>
            <GameCarousel/>

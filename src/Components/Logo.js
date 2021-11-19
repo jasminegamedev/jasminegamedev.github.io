@@ -26,7 +26,7 @@ const useStyles = createUseStyles({
         },
     },
     title: {
-        fontSize: 'min(7vw, 50px)',
+        fontSize: 'min(6vw, 50px)',
         textDecoration: 'none',
         display: 'inline-block',
         margin: '0px'

@@ -1,5 +1,19 @@
 [
     {
+        "name": "A Hat in Time: Vanessa's Curse DLC",
+        "icon": "/content/images/games/vanessas-curse/VanessasCurseIcon.png",
+        "previewImage": "/content/images/games/vanessas-curse/VanessasCurseVideo.mp4",
+        "url": "#/games/vanessas-curse",
+        "shortText": "Vanessa's Curse is the first official CreatorDLC, and first official online game mode for the indie 3D platformer, A Hat in Time."
+    },
+    {
+        "name": "Re: Cubed",
+        "icon": "/content/images/games/re-cubed/RecubedIcon.png",
+        "previewImage": "/content/images/games/re-cubed/ReCubedVideo.mp4",
+        "url": "#/games/re-cubed",
+        "shortText": "Re: Cubed is a puzzle platformer where you must solve puzzles by strategically dieing in the correct place to progress."
+    },
+    {
         "name": "Tap Shot",
         "icon": "/content/images/games/tapshot/TapShotIcon.png",
         "previewImage": "/content/images/games/tapshot/TapShot.mp4",

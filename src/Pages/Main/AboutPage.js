@@ -52,7 +52,7 @@ export const AboutPage = () => {
                 About Me
             </h2>
             <h3 className={classes.text}>Hello World!</h3>
-            <p className={classes.text}>My name is Jasmine Stephens. During the day, I work a professional Software Engineer, spending my days building software, web pages and APIs. But in my freetime, I like to work as a hobbyist game developer and game modder.</p>
+            <p className={classes.text}>My name is Jasmine Stephens, also known online under the alias, "Jazzrabbit". Most recently, I have worked as a professional Software Engineer, spending my days building software, web pages and APIs. But in my freetime, I like to work as a hobbyist game developer and game modder.</p>
             <p className={classes.text}>Ever since I was young, I've been fascinated by computers and video games. As a teenager, my curiosity got the better of me, and I started teaching myself everything I could about programming and game development. I've gone through college to level up my skills and obtained a Bachelor's Degree in Sofware and Game Development, and since then, I've gone on to start my career as a professional Sofware Engineer.</p>
             <h3 className={classes.skills}>Skills</h3>
             <Grid container spacing={0} className={classes.table}>

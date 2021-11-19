@@ -39,6 +39,7 @@ export const AHITModdingPage = () => {
             </h2>
             <ScreenshotCarousel
                 images={[
+                    '/content/images/projects/modding/AHIT0.png',
                     '/content/images/projects/modding/AHIT1.png',
                     '/content/images/projects/modding/AHIT2.png',
                     '/content/images/projects/modding/AHIT3.png',
@@ -61,7 +62,7 @@ export const AHITModdingPage = () => {
                             <li>My Roles: Gameplay Programmer, UI Programmer, Artist</li>
                             <li>Tools Used: Unreal Engine 3, UnrealScript, Blender</li>
                             <li><a className={classes.link} href="https://steamcommunity.com/workshop/filedetails/?id=2068630350">Link To Mod Highlights Collection</a></li>
-=                        </ul>
+                        </ul>
                     </div>
                 </Grid>
                 <Grid item xs={12} md={5} className={classes.gridItem}>

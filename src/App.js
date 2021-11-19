@@ -10,7 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import { AboutPage, ContactPage, PortfolioPage, HomePage } from './Pages/Main';
-import { RoboRepairPage, TapshotPage, GraveGuardianPage, HoloDefenderPage, BurstFightersPage, CakeWalkPage, RogueBotPage } from './Pages/Games';
+import { RoboRepairPage, TapshotPage, GraveGuardianPage, HoloDefenderPage, BurstFightersPage, CakeWalkPage, RogueBotPage, ReCubedPage, VanessasCursePage } from './Pages/Games';
 import { Container } from '@material-ui/core';
 import * as history from "history";
 import { Footer } from "./Components/Footer";
@@ -85,6 +85,12 @@ function App() {
                 <Route path="/portfolio">
                   <PortfolioPage />
                 </Route>
+                <Route path="/games/vanessas-curse">
+                  <VanessasCursePage />
+                </Route>
+                <Route path="/games/re-cubed">
+                  <ReCubedPage />
+                </Route>
                 <Route path="/games/tap-shot">
                   <TapshotPage />
                 </Route>
@@ -100,11 +106,11 @@ function App() {
                 <Route path="/games/burst-fighters">
                   <BurstFightersPage />
                 </Route>
-                <Route path="/games/cake-walk">
-                  <CakeWalkPage />
-                </Route>
                 <Route path="/games/rogue-bot">
                   <RogueBotPage />
+                </Route>
+                <Route path="/games/cake-walk">
+                  <CakeWalkPage />
                 </Route>
                 <Route path="/projects/ahit-modding">
                   <AHITModdingPage />

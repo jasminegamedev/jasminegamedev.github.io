@@ -40,7 +40,6 @@ export const NomadPage = () => {
                     '/content/images/projects/nomad/Nomad3.png',
                     '/content/images/projects/nomad/Nomad4.png',
                     '/content/images/projects/nomad/Nomad5.png',
-                    '/content/images/projects/nomad/Nomad6.jpg'
                 ]}
             />
             <div className={classes.columns}>

@@ -42,7 +42,7 @@ export const Footer = () => {
             <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">
                 <LinkedInIcon />
             </a>
-            <a className={classes.link} href="https://twitter.com/JasmineGameDev" rel="noopener noreferrer" target="_blank">
+            <a className={classes.link} href="https://twitter.com/Lady_Jazzrabbit" rel="noopener noreferrer" target="_blank">
                 <TwitterIcon />
             </a>
             <a className={classes.link} href="mailto:jasminegamedev@gmail.com">

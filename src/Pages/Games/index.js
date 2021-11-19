@@ -1,3 +1,5 @@
+export * from './VanessasCurse';
+export * from './ReCubed';
 export * from './TapShot';
 export * from './RoboRepair';
 export * from './GraveGuardian';
