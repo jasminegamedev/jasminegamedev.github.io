@@ -70,11 +70,9 @@ export const VanessasCursePage = ({children}) => {
                         <p>This project is the first ever CreatorDLC for the indie 3D platformer, A Hat in Time, as well as its first official Online Game Mode. I was one of the lead developers for this DLC, and developed a majority of its custom gameplay systems and UI elements. I also built several new level design tools that expanded the networking systems and gave more control to the level designers.</p>
                         <h3 className={classes.details}>Details:</h3>
                         <ul className={classes.details}>
-                            <li>Platform: Steam</li>
-                            <li>Steam Page: <a className={classes.link} href="https://store.steampowered.com/app/1738980/A_Hat_in_Time__Vanessas_Curse/">Windows</a></li>
+                            <li>Platform: <a className={classes.link} href="https://store.steampowered.com/app/1738980/A_Hat_in_Time__Vanessas_Curse/">Steam</a></li>
                             <li>Publisher: Gears For Breakfast</li>
-                            <li>Tools: Unreal Engine 3, UnrealScript, Blender</li>
-                            <li>My Roles: Gameplay Programmer, UI Programmer, Network Systems Programmer</li>
+                            <li>Tools: Unreal Engine 3, UnrealScript</li>
                         </ul>
                         <h3 className={classes.details}>Core Team Credits:</h3>
                         <ul className={classes.details}>
