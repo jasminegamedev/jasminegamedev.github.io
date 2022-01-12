@@ -5,7 +5,7 @@ import { MenuLink } from './Components/MenuLink';
 import { Logo } from './Components/Logo';
 import {createUseStyles} from 'react-jss'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -122,6 +122,9 @@ function App() {
                 </Route>
                 <Route path="/projects/nomad">
                   <NomadPage />
+                </Route>
+                <Route path="/home">
+                  <HomePage />
                 </Route>
                 <Route path="/">
                   <HomePage />
