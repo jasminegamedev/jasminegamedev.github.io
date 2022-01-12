@@ -1,6 +1,6 @@
 import React from 'react';
 import {createUseStyles} from 'react-jss';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const useStyles = createUseStyles({
     link: {
@@ -20,6 +20,7 @@ const useStyles = createUseStyles({
 export const MenuItem = ({children, url}) => {
     const classes = useStyles();
     return (
-        <Link className={classes.link} to={url}>{children}</Link>
+        <HashLink scroll={(el) => setTimeout(() => {el.scrollIntoView({ behavior: 'smooth', block: 'start' })}, 50)}
+         className={classes.link} to={url}>{children}</HashLink>
     );
 }

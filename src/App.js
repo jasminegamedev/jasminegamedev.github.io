@@ -5,7 +5,7 @@ import { MenuLink } from './Components/MenuLink';
 import { Logo } from './Components/Logo';
 import {createUseStyles} from 'react-jss'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -35,6 +35,8 @@ const useStyles = createUseStyles({
     width: '100%',
     backgroundColor: 'rgba(20, 20, 40, 0.7)',
     padding: '1px',
+  },
+  header: {
   }
 });
 
@@ -48,32 +50,35 @@ hist.listen((location, action) => {
 function App() {
   const classes = useStyles();
   return (
-    <Router history={hist}>
+    <Router path="/" history={hist}>
       <div className={classes.app}>
         <Stars></Stars>
         <Container className={classes.container} maxWidth="lg">
           <div>
             <Logo/>
-            <AppBar>
-              <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
-                <MenuItem url='/'>Home</MenuItem>
-              </Grid>
-              <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
-                <MenuItem url='/portfolio'>Portfolio</MenuItem>
+            <div className={classes.header}>
+              <AppBar>
+                <Grid item xs={6} sm={3} md={3} className={classes.gridItem}>
+                  <MenuItem url='/#'>Home</MenuItem>
                 </Grid>
-              <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
-                <MenuItem url='/about'>About</MenuItem>
-                </Grid>
-              <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
-                <MenuItem url='/contact'>Contact</MenuItem>
-                </Grid>
-              <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
-                <MenuLink url='/content/JasmineStephensResume.pdf'>Résumé</MenuLink>
-                </Grid>
-              <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
-                <MenuLink url='https://www.linkedin.com/in/j-stephens/'>LinkedIn</MenuLink>
-              </Grid>
-            </AppBar>
+                <Grid item xs={6} sm={3} md={3} className={classes.gridItem}>
+                  <MenuItem url='/#Portfolio'>Portfolio</MenuItem>
+                  </Grid>
+                {/* <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
+                  <MenuItem url='/about'>About</MenuItem>
+                </Grid> */}
+                <Grid item xs={6} sm={3} md={3} className={classes.gridItem}>
+                  <MenuItem url='/#Contact'>Contact</MenuItem>
+                  </Grid>
+                <Grid item xs={6} sm={3} md={3} className={classes.gridItem}>
+                  <MenuLink url='/content/JasmineStephensResume.pdf'>Résumé</MenuLink>
+                  </Grid>
+                {/* <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
+                  <MenuLink url='https://www.linkedin.com/in/j-stephens/'>LinkedIn</MenuLink>
+                </Grid> */}
+              </AppBar>
+            </div>
+            
             <div>
               <Switch>
                 <Route path="/about">

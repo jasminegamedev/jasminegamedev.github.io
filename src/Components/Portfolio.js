@@ -10,7 +10,7 @@ const useStyles = createUseStyles({
     image: {
         borderRadius: '8px',
         width: '100%',
-        height: 'auto',
+        height: '100%',
         display: 'block',
         marginLeft: 'auto',
         marginRight: 'auto',

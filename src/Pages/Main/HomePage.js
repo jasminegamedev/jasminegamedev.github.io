@@ -1,6 +1,6 @@
 import React from 'react';
-import { createUseStyles } from 'react-jss'
-import { GameCarousel } from '../../Components/GameCarousel';
+import { createUseStyles } from 'react-jss';
+import { ContactPage, PortfolioPage } from './';
 
 const useStyles = createUseStyles({
     title: {
@@ -16,7 +16,7 @@ const useStyles = createUseStyles({
     },
     text: {
         margin: '20px',
-        fontSize: '24px',
+        fontSize: '22px',
         textAlign: 'left',
         minHeight: '260px'
     },
@@ -29,6 +29,8 @@ const useStyles = createUseStyles({
         height: '250px',
         marginRight: '20px', 
         border: 'white 5px solid',
+        borderRadius: '5px',
+        background: 'radial-gradient(ellipse at center, #1e579933 0%,#256ec633 0%,#06307a33 100%)',
     }
 });
 
@@ -36,16 +38,21 @@ export const HomePage = () => {
     const classes = useStyles();
     return (
         <div className={classes.body}>
-            <span>
+            <span id="Home">
                 <p className={classes.text}>
                     <img className={classes.image} src={"/logo512.png"} alt={""} align="left"/>
-                    <b>Hello there!</b>
-                    <br/>My name's Jasmine! I'm a 24 year old Software and Game Developer who specializes in Gameplay and UI Programming. I have over 4 years of software development experience, and I am currently looking for new opportunities in the games industry!
-                    <br/>I love video games and game development, and have been involved in game development and game modding as a hobbyist for almost a decade!
-                    <br/>If you'd like to see some of my previous work, I'd encourage you to check out my <a className={classes.link} href="#/portfolio">Portfolio</a>.
+                    <b>Hello World!</b>
+                    <br/>My name's Jasmine (she/they), also known online as Jazzrabbit.
+                    <br/>I'm a Software/Web/Game Developer who specializes in Gameplay and UI Programming, as well as Front End Web Development. I have over 4 years of software development experience, and I am currently looking for new opportunities in the games industry!
+                    <br/>I love video games and have been involved in game development and game modding as a hobbyist for almost a decade. My main tools of choice are C# and Unity for game development, and React/TypeScript for web development, but I'm always open to learning new tools and technologies!
                 </p>
             </span>
-           <GameCarousel/>
+            <span id="Portfolio">
+                <PortfolioPage />
+            </span>
+            <span id="Contact">
+                <ContactPage />
+            </span>
         </div>
     );
 }

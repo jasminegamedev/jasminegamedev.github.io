@@ -1,7 +1,7 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss'
 import TwitterIcon from '@material-ui/icons/Twitter';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = createUseStyles({
@@ -39,9 +39,9 @@ export const Footer = () => {
     const classes = useStyles();
     return (
         <div className={classes.footer}>
-            <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">
+            {/* <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">
                 <LinkedInIcon />
-            </a>
+            </a> */}
             <a className={classes.link} href="https://twitter.com/Lady_Jazzrabbit" rel="noopener noreferrer" target="_blank">
                 <TwitterIcon />
             </a>

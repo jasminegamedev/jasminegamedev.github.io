@@ -33,10 +33,10 @@ export const ContactPage = ({children, url}) => {
             <h4 className={classes.text}>If you would like to get in touch with me, feel free to reach out through any of the following contact methods:</h4>
                 <h3 className={classes.linkHeader}>Email</h3>
                 <a className={classes.link} href="mailto:jasminegamedev@gmail.com">jasminegamedev@gmail.com</a>
-                <h3 className={classes.linkHeader}>LinkedIn</h3>
-                <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">linkedin.com/in/j-stephens</a>
                 <h3 className={classes.linkHeader}>Twitter</h3>
                 <a className={classes.link} href="https://twitter.com/Lady_Jazzrabbit" rel="noopener noreferrer" target="_blank">twitter.com/Lady_Jazzrabbit</a>
+                {/* <h3 className={classes.linkHeader}>LinkedIn (still under old name for personal reasons)</h3>
+                <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">linkedin.com/in/j-stephens</a> */}
         </div>
     );
 }
