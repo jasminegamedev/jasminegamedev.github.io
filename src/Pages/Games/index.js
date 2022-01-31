@@ -1,4 +1,5 @@
 export * from './VanessasCurse';
+export * from './DualReality';
 export * from './ReCubed';
 export * from './TapShot';
 export * from './RoboRepair';

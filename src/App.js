@@ -10,7 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import { AboutPage, ContactPage, PortfolioPage, HomePage } from './Pages/Main';
-import { RoboRepairPage, TapshotPage, GraveGuardianPage, HoloDefenderPage, BurstFightersPage, CakeWalkPage, RogueBotPage, ReCubedPage, VanessasCursePage } from './Pages/Games';
+import { RoboRepairPage, TapshotPage, GraveGuardianPage, HoloDefenderPage, BurstFightersPage, CakeWalkPage, RogueBotPage, ReCubedPage, DualRealityPage, VanessasCursePage } from './Pages/Games';
 import { Container } from '@material-ui/core';
 import * as history from "history";
 import { Footer } from "./Components/Footer";
@@ -95,6 +95,9 @@ function App() {
                 </Route>
                 <Route path="/games/re-cubed">
                   <ReCubedPage />
+                </Route>
+                <Route path="/games/dual-reality">
+                  <DualRealityPage />
                 </Route>
                 <Route path="/games/tap-shot">
                   <TapshotPage />

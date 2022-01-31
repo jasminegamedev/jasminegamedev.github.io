@@ -7,6 +7,12 @@
         "shortText": "Vanessa's Curse is the first official CreatorDLC, and first official online game mode for the indie 3D platformer, A Hat in Time."
     },
     {
+        "name": "Dual Reality",
+        "icon": "/content/images/games/dual-reality/DualRealityIcon.png",
+        "previewImage": "/content/images/games/dual-reality/DualReality.mp4",
+        "url": "#/games/dual-reality",
+        "shortText": "Dual Reality is a 2D platformer about shifting between two realities."
+    },    {
         "name": "Re: Cubed",
         "icon": "/content/images/games/re-cubed/ReCubedIcon.png",
         "previewImage": "/content/images/games/re-cubed/ReCubedVideo.mp4",
