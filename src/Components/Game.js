@@ -15,9 +15,12 @@ const useStyles = createUseStyles({
     },
     runButton: {
         margin: 'auto !important',
+        marginTop: '5px !important',
+        marginBottom: '5px !important',
         display: 'flex !important',
         top: '50%',
         fontFamily: 'Russo One !important',
+        textDecoration: 'none',
         cursor: 'pointer',
         "@media only screen and (max-width: 960px)": {
             display: 'none !important',
@@ -32,7 +35,7 @@ function ScrollingY( event ) {
     });
 }
 
-export const Game = ({url, alt, width="960px", height="640px", onAltClick}) => {
+export const Game = ({url, alt, width="960px", height="640px", onAltClick, download="", downloadText = "Windows Download"}) => {
     const classes = useStyles();
     const [isInGame, setInGame] = React.useState(false);
 
@@ -46,7 +49,6 @@ export const Game = ({url, alt, width="960px", height="640px", onAltClick}) => {
                     <video onClick={() => onAltClick()} loop autoPlay muted className={classes.video}>
                         <source src={alt} type="video/mp4"/>
                     </video>
-                    <br/>
                     <Button variant="contained" color="primary" className={classes.runButton} onClick={() => {
                         setInGame(true);
                         setTimeout(function(){
@@ -57,9 +59,14 @@ export const Game = ({url, alt, width="960px", height="640px", onAltClick}) => {
 
                             }
                         }, 1000);
-                    }}>Click Here to Play</Button>
+                    }}>Play In Browser</Button>
                 </div>
             )}
+            {download &&
+                <a className={classes.runButton} href={download}>
+                    <Button variant="contained" color="default" className={classes.runButton}>{downloadText}</Button>
+                </a>
+            }
         </div>
     );
 }

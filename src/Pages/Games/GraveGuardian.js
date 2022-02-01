@@ -55,7 +55,7 @@ export const GraveGuardianPage = ({children}) => {
             <h2 className={classes.title}>
                 Grave Guardian
             </h2>
-            <Game url="/content/games/GraveGuardian/index.html" alt="/content/images/games/grave-guardian/GraveGuardian.mp4" onAltClick={() => openDialog(0)}/>
+            <Game url="/content/games/GraveGuardian/index.html" alt="/content/images/games/grave-guardian/GraveGuardian.mp4" onAltClick={() => openDialog(0)} download='/content/games/Windows/GraveGuardian.zip'/>
 
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
@@ -76,7 +76,6 @@ export const GraveGuardianPage = ({children}) => {
                             <li>Tools Used: Unity3D, C#, Blender</li>
                             <li>Team Size: 2 people</li>
                             <li>Time Frame: 48 hours</li>
-                            <li>Downloads: <a className={classes.link} href="/content/games/Windows/GraveGuardian.zip">Windows</a></li>
                             <li><a className={classes.link} href="https://jawchewa.itch.io/grave-guardian">Original itch.io Page</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>

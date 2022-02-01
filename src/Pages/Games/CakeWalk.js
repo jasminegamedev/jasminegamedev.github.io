@@ -56,7 +56,7 @@ export const CakeWalkPage = ({children}) => {
             <h2 className={classes.title}>
                 Cake Walk
             </h2>
-            <Game url="/content/games/CakeWalk/index.html" alt="/content/images/games/cake-walk/CakeWalk.mp4" onAltClick={() => openDialog(0)}/>
+            <Game url="/content/games/CakeWalk/index.html" alt="/content/images/games/cake-walk/CakeWalk.mp4" onAltClick={() => openDialog(0)} download='/content/games/Windows/CakeWalk.zip'/>
 
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>

@@ -80,7 +80,7 @@ export const RoboRepairPage = ({children}) => {
             <h2 className={classes.title}>
                 Robo Repair
             </h2>
-            <Game url="/content/games/RoboRepair/index.html" alt="/content/images/games/robo-repair/RoboRepair.mp4" onAltClick={() => openDialog(1)}/> 
+            <Game url="/content/games/RoboRepair/index.html" alt="/content/images/games/robo-repair/RoboRepair.mp4" onAltClick={() => openDialog(1)} download='/content/games/Windows/RoboRepair.zip'/> 
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
                     <div className={classes.body}>
@@ -101,7 +101,6 @@ export const RoboRepairPage = ({children}) => {
                             <li>Tools Used: Unity3D, C#, MagicaVoxel, Blender</li>
                             <li>Team Size: 4 people</li>
                             <li>Time Frame: 48 hours initially + half a day for ports and clean up</li>
-                            <li>Downloads: <a className={classes.link} href="/content/games/Windows/RoboRepair.zip">Windows</a></li>
                             <li><a className={classes.link} href="https://globalgamejam.org/2020/games/robo-repair-0">Original Global Game Jam Page</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>

@@ -56,7 +56,7 @@ export const ReCubedPage = ({children}) => {
             <h2 className={classes.title}>
                 Re: Cubed
             </h2>
-            <Game url="/content/games/ReCubed/index.html" alt="/content/images/games/re-cubed/ReCubedVideo.mp4" onAltClick={() => openDialog(0)}/>
+            <Game url="/content/games/ReCubed/index.html" alt="/content/images/games/re-cubed/ReCubedVideo.mp4" onAltClick={() => openDialog(0)} download='/content/games/Windows/ReCubed.zip'/>
 
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
@@ -79,7 +79,6 @@ export const ReCubedPage = ({children}) => {
                             <li>Team Size: 1 Person</li>
                             <li>Time Frame: ~ 30 hours</li>
                             <li>Original Project Page: <a className={classes.link} href="https://jasminegamedev.itch.io/re-cubed">itch.io</a></li>
-                            <li>Downloads: <a className={classes.link} href="/content/games/Windows/ReCubed.zip">Windows</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>

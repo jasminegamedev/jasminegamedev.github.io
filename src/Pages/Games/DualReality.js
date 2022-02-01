@@ -56,7 +56,7 @@ export const DualRealityPage = ({children}) => {
             <h2 className={classes.title}>
                 Dual Reality
             </h2>
-            <Game url="/content/games/DualReality/index.html" alt="/content/images/games/dual-reality/DualReality.mp4" width="1080px" height="640px" onAltClick={() => openDialog(0)}/>
+            <Game url="/content/games/DualReality/index.html" alt="/content/images/games/dual-reality/DualReality.mp4" width="1080px" height="640px" onAltClick={() => openDialog(0)} download="/content/games/Windows/DualReality.zip"/>
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
                     <div className={classes.body}>
@@ -78,7 +78,6 @@ export const DualRealityPage = ({children}) => {
                             <li>Team Size: 1 Person</li>
                             <li>Time Frame: ~ 30 hours</li>
                             <li>Original Global Game Jam Page: <a className={classes.link} href="https://globalgamejam.org/2022/games/dual-reality-9">globalgamejam.org/2022/games/dual-reality-9</a></li>
-                            <li>Downloads: <a className={classes.link} href="/content/games/Windows/DualReality.zip">Windows</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>

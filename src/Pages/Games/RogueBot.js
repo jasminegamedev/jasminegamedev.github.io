@@ -55,7 +55,7 @@ export const RogueBotPage = ({children}) => {
             <h2 className={classes.title}>
                 Rogue Bot
             </h2>
-            <Game url="/content/games/RogueBot/index.html" alt="/content/images/games/rogue-bot/RogueBot.mp4" onAltClick={() => openDialog(0)}/>
+            <Game url="/content/games/RogueBot/index.html" alt="/content/images/games/rogue-bot/RogueBot.mp4" onAltClick={() => openDialog(0)} download='/content/games/Windows/RogueBot.zip'/>
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
                     <div className={classes.body}>
@@ -88,7 +88,6 @@ export const RogueBotPage = ({children}) => {
                             <li>Tools Used: Unity3D, C#, Blender</li>
                             <li>Team Size: 3 people</li>
                             <li>Time Frame: 10 weeks</li>
-                            <li>Downloads: <a className={classes.link} href="/content/games/Windows/RogueBot.zip">Windows</a></li>
                             <li><a className={classes.link} href="https://gamejolt.com/games/rogue-bot/231671">Original Game Jolt Page</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>

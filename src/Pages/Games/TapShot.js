@@ -80,7 +80,7 @@ export const TapshotPage = ({children}) => {
             <h2 className={classes.title}>
                 Tap Shot
             </h2>
-            <Game url="/content/games/Tapshot/index.html" alt="/content/images/games/tapshot/TapShot.mp4" onAltClick={() => openDialog(1)}/>
+            <Game url="/content/games/Tapshot/index.html" alt="/content/images/games/tapshot/TapShot.mp4" onAltClick={() => openDialog(1)} download='/content/games/Windows/TapShot.zip'/>
 
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
@@ -104,7 +104,6 @@ export const TapshotPage = ({children}) => {
                             <li>Tools Used: Unity3D, C#</li>
                             <li>Time Frame: 48 hours</li>
                             <li><a className={classes.link} href="https://play.google.com/store/apps/details?id=com.Jawchewa.TapShot">Google Play Page</a></li>
-                            <li><a className={classes.link} href="/content/games/Windows/TapShot.zip">Windows Download</a></li>
                             <li><a className={classes.link} href="https://jawchewa.itch.io/tap-shot">Original itch.io Page</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>

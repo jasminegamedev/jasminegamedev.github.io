@@ -55,7 +55,7 @@ export const HoloDefenderPage = ({children}) => {
             <h2 className={classes.title}>
                 Holo Defender
             </h2>
-            <Game url="/content/games/HoloDefender/index.html" alt="/content/images/games/holo-defender/HoloDefender.mp4" onAltClick={() => openDialog(0)}/>
+            <Game url="/content/games/HoloDefender/index.html" alt="/content/images/games/holo-defender/HoloDefender.mp4" onAltClick={() => openDialog(0)} download='/content/games/Windows/HoloDefender.zip'/>
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
                     <div className={classes.body}>
