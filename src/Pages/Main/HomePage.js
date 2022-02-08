@@ -43,7 +43,7 @@ export const HomePage = () => {
                     <img className={classes.image} src={"/logo512.png"} alt={""} align="left"/>
                     <b>Hello World!</b>
                     <br/>My name's Jasmine (she/they), also known online as Jazzrabbit.
-                    <br/>I'm a Software/Web/Game Developer who specializes in Gameplay and UI Programming, as well as Front End Web Development. I have over 4 years of software development experience, and I am currently looking for new opportunities in the games industry!
+                    <br/>I'm a trans Software/Web/Game Developer who specializes in Gameplay and UI Programming, as well as Front End Web Development. I have over 4 years of software development experience, and I am currently looking for work in the games industry!
                     <br/>I love video games and have been involved in game development and game modding as a hobbyist for almost a decade. My main tools of choice are C# and Unity for game development, and React/TypeScript for web development, but I'm always open to learning new tools and technologies!
                 </p>
             </span>

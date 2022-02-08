@@ -35,6 +35,8 @@ export const ContactPage = ({children, url}) => {
                 <a className={classes.link} href="mailto:jasminegamedev@gmail.com">jasminegamedev@gmail.com</a>
                 <h3 className={classes.linkHeader}>Twitter</h3>
                 <a className={classes.link} href="https://twitter.com/Lady_Jazzrabbit" rel="noopener noreferrer" target="_blank">twitter.com/Lady_Jazzrabbit</a>
+                <h3 className={classes.linkHeader}>Github</h3>
+                <a className={classes.link} href="https://github.com/jasminegamedev" rel="noopener noreferrer" target="_blank">github.com/jasminegamedev</a>
                 {/* <h3 className={classes.linkHeader}>LinkedIn (still under old name for personal reasons)</h3>
                 <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">linkedin.com/in/j-stephens</a> */}
         </div>

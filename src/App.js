@@ -15,6 +15,8 @@ import { Container } from '@material-ui/core';
 import * as history from "history";
 import { Footer } from "./Components/Footer";
 import { Stars } from "./Components/Stars";
+import { JasmineGamesPage } from './Pages/Projects/JasmineGames';
+import { DealerSocketPage } from './Pages/Projects/DealerSocket';
 import { AHITModdingPage } from './Pages/Projects/AHITModding';
 import { NomadPage } from './Pages/Projects/NomadPage';
 import { Grid } from '@material-ui/core';
@@ -119,6 +121,12 @@ function App() {
                 </Route>
                 <Route path="/games/cake-walk">
                   <CakeWalkPage />
+                </Route>
+                <Route path="/projects/jasmine-games">
+                  <JasmineGamesPage />
+                </Route>
+                <Route path="/projects/dealersocket">
+                  <DealerSocketPage />
                 </Route>
                 <Route path="/projects/ahit-modding">
                   <AHITModdingPage />

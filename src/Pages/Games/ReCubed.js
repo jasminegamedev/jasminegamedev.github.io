@@ -78,6 +78,7 @@ export const ReCubedPage = ({children}) => {
                             <li>Tools Used: Unity, C#, Blender</li>
                             <li>Team Size: 1 Person</li>
                             <li>Time Frame: ~ 30 hours</li>
+                            <li>Source Code: <a className={classes.link} href="https://github.com/jasminegamedev/re-cubed">Github</a></li>
                             <li>Original Project Page: <a className={classes.link} href="https://jasminegamedev.itch.io/re-cubed">itch.io</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>

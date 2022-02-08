@@ -77,6 +77,7 @@ export const DualRealityPage = ({children}) => {
                             <li>Tools Used: Unity, C#, .Net, Paint.Net</li>
                             <li>Team Size: 1 Person</li>
                             <li>Time Frame: ~ 30 hours</li>
+                            <li>Source Code: <a className={classes.link} href="https://github.com/jasminegamedev/dual-reality">Github</a></li>
                             <li>Original Global Game Jam Page: <a className={classes.link} href="https://globalgamejam.org/2022/games/dual-reality-9">globalgamejam.org/2022/games/dual-reality-9</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>

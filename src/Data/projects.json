@@ -1,5 +1,11 @@
 [
     {
+        "name": "jasmine.games Portfolio Website",
+        "icon": "/logo512.png",
+        "url": "#/projects/jasmine-games",
+        "shortText": "I built my own custom portfolio website which you are currently looking at."
+    },
+    {
         "name": "A Hat in Time Modding",
         "icon": "/content/images/projects/modding/ModdingIcon.png",
         "url": "#/projects/ahit-modding",

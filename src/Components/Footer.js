@@ -3,6 +3,7 @@ import { createUseStyles } from 'react-jss'
 import TwitterIcon from '@material-ui/icons/Twitter';
 // import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
+import GithubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = createUseStyles({
     footer: {
@@ -47,6 +48,9 @@ export const Footer = () => {
             </a>
             <a className={classes.link} href="mailto:jasminegamedev@gmail.com">
                 <EmailIcon />
+            </a>
+            <a className={classes.link} href="https://github.com/jasminegamedev" rel="noopener noreferrer" target="_blank">
+                <GithubIcon />
             </a>
             <span className={classes.rightAlign}>
                 {'Website designed and created by Jasmine Stephens -'} 
