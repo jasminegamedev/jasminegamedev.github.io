@@ -20,6 +20,7 @@ import { DealerSocketPage } from './Pages/Projects/DealerSocket';
 import { AHITModdingPage } from './Pages/Projects/AHITModding';
 import { NomadPage } from './Pages/Projects/NomadPage';
 import { Grid } from '@material-ui/core';
+import { PathfinderPage } from './Pages/Projects/Pathfinder';
 
 const useStyles = createUseStyles({
   app: {
@@ -32,6 +33,8 @@ const useStyles = createUseStyles({
     minHeight: '94.6vh',
     backgroundColor: 'rgba(20, 20, 40, 0.7)',
     paddingBottom: '5px',
+    paddingLeft: '0px !important',
+    paddingRight: '0px !important'
   },
   footer: {
     width: '100%',
@@ -124,6 +127,9 @@ function App() {
                 </Route>
                 <Route path="/projects/jasmine-games">
                   <JasmineGamesPage />
+                </Route>
+                <Route path="/projects/pathfinder">
+                  <PathfinderPage />
                 </Route>
                 <Route path="/projects/dealersocket">
                   <DealerSocketPage />
