@@ -85,6 +85,7 @@ export const CohostWordlePage = ({children}) => {
         contents += buildKeyboard(0);
         var body = `<a href="https://jasmine.games/#/samples/cohost-wordle" style="text-decoration:none;"><div style="line-height:1.3;display:flex;flex-direction:column;width:100%;justify-content:center;align-items:center;font-family:sans-serif"><div><span style="background: rgb(131, 37, 79); color: white; font-size: 32px; font-weight: 800; font-family: sans-serif; border-radius: 50%; padding-left: 15px; padding-right: 2px; letter-spacing: 0.1em;">co</span><span style="background: white; color: rgb(131, 37, 79); font-size: 32px; font-weight: 800; font-family: sans-serif; letter-spacing: 0.1em;">rdle</span></div></div></a><div style="width:100%;text-align:center;justify-content:center;align-items:center;">(Desktop only)</div>`
         body += `<div style="position:relative;background:white;width:640px;height:440px;font-weight:650;text-align:center;color:black;user-select:none;clip-path:inset(0px);font-size:24px">${contents}</div>`
+        body += `<div style="width:100%;text-align:center;justify-content:center;align-items:center;">(<a href="https://jasmine.games/#/samples/cohost-wordle">Generator</a> built by @jazzrabbit)</div>`
         return body;
     }
 
@@ -124,11 +125,9 @@ export const CohostWordlePage = ({children}) => {
                 contents += `<div style="position:absolute;top:calc(${height + 440*i + 4}px + -440*100%);width:${width}px;height:33px;background:gold;z-index:-2"></div>`;   
             }
         }
-//        contents += `<p style="position:absolute;left:${x+8}px;top:calc(${y+height + 440*0 - height - 8}px + -440*100%);">${alphabet[0]}</p>`;
 
         contents += `<div style="clip-path:path('M 0,32 h 26 v 24 h -34 z')"><div style="position:absolute;left:5px;top:calc(${height + 8}px + -24*100%);width:21px;height:624px;background-image:url(https://tinyurl.com/cohordle)"></div></div>`;
-        // contents += `<div style="position:absolute;left:${x}px;top:${y+height*3}px;width:${width}px;height:500px;background:white"></div>`;   
-        // contents += `<div style="position:absolute;left:${x}px;top:${y-500 + height}px;width:${width}px;height:500px;background:white"></div>`;  
+        
         contents+=`<div style="font-size:0px">`;
         for(var j = 0; j < 25; j++)
         {
@@ -148,7 +147,6 @@ export const CohostWordlePage = ({children}) => {
     }
 
     function copyToClipboard() {
-         // Copy the text inside the text field
         navigator.clipboard.writeText(output);
     }
     
