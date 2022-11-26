@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import { AboutPage, ContactPage, PortfolioPage, HomePage } from './Pages/Main';
 import { RoboRepairPage, TapshotPage, GraveGuardianPage, HoloDefenderPage, BurstFightersPage, CakeWalkPage, RogueBotPage, ReCubedPage, DualRealityPage, VanessasCursePage } from './Pages/Games';
+import { CohostWordlePage } from './Pages/Samples';
 import { Container } from '@material-ui/core';
 import * as history from "history";
 import { Footer } from "./Components/Footer";
@@ -139,6 +140,9 @@ function App() {
                 </Route>
                 <Route path="/projects/nomad">
                   <NomadPage />
+                </Route>
+                <Route path="/samples/cohost-wordle">
+                  <CohostWordlePage />
                 </Route>
                 <Route path="/home">
                   <HomePage />
