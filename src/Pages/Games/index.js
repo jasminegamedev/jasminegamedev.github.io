@@ -1,3 +1,4 @@
+export * from './SlimeRancher2';
 export * from './VanessasCurse';
 export * from './DualReality';
 export * from './ReCubed';

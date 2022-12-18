@@ -1,12 +1,5 @@
 [
     {
-        "name": "A Hat in Time: Vanessa's Curse DLC",
-        "icon": "/content/images/games/vanessas-curse/VanessasCurseIcon.png",
-        "previewImage": "/content/images/games/vanessas-curse/VanessasCurseVideo.mp4",
-        "url": "#/games/vanessas-curse",
-        "shortText": "Vanessa's Curse is the first official CreatorDLC, and first official online game mode for the indie 3D platformer, A Hat in Time."
-    },
-    {
         "name": "Dual Reality",
         "icon": "/content/images/games/dual-reality/DualRealityIcon.png",
         "previewImage": "/content/images/games/dual-reality/DualReality.mp4",

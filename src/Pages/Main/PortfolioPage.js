@@ -1,7 +1,8 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss'
 import { Portfolio } from '../../Components/Portfolio';
-import games from '../../Data/games.json';
+import professional from '../../Data/professional.json';
+import personal from '../../Data/personal.json';
 import projects from '../../Data/projects.json';
 
 const useStyles = createUseStyles({
@@ -31,9 +32,13 @@ export const PortfolioPage = ({children, url}) => {
                 Portfolio
             </h2>
             <h3 className={classes.subtitle}>
-                Games
+                Professional Work
             </h3>
-            <Portfolio projects={games}/>
+            <Portfolio projects={professional}/>
+            <h3 className={classes.subtitle}>
+                Game Jams & Personal Projects
+            </h3>
+            <Portfolio projects={personal}/>
             <h3 className={classes.subtitle}>
                 Other Projects
             </h3>

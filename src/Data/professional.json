@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Slime Rancher 2",
+        "icon": "/content/images/games/slime-rancher-2/SR2Icon.png",
+        "previewImage": "https://cdn.akamai.steamstatic.com/steam/apps/1657630/ss_574ea9c6460c58e665bff993e8394362c1fb10e7.1920x1080.jpg",
+        "url": "#/games/slime-rancher-2",
+        "shortText": "Slime Rancher 2 is a wiggly sequel to the award-winning, smash-hit original that has been enjoyed by over 15 million fans worldwide."
+    },
+    {
+        "name": "A Hat in Time: Vanessa's Curse DLC",
+        "icon": "/content/images/games/vanessas-curse/VanessasCurseIcon.png",
+        "previewImage": "/content/images/games/vanessas-curse/VanessasCurseVideo.mp4",
+        "url": "#/games/vanessas-curse",
+        "shortText": "Vanessa's Curse is the first official CreatorDLC, and first official online game mode for the indie 3D platformer, A Hat in Time."
+    }
+]
