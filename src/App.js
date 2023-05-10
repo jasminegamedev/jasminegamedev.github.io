@@ -10,7 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 import { AboutPage, ContactPage, PortfolioPage, HomePage } from './Pages/Main';
-import { RoboRepairPage, TapshotPage, GraveGuardianPage, HoloDefenderPage, BurstFightersPage, CakeWalkPage, RogueBotPage, ReCubedPage, DualRealityPage, VanessasCursePage, SlimeRancher2Page } from './Pages/Games';
+import { AngelsOdysseyPage, RoboRepairPage, TapshotPage, GraveGuardianPage, HoloDefenderPage, BurstFightersPage, CakeWalkPage, RogueBotPage, ReCubedPage, DualRealityPage, VanessasCursePage, SlimeRancher2Page } from './Pages/Games';
 import { CohostWordlePage } from './Pages/Samples';
 import { Container } from '@material-ui/core';
 import * as history from "history";
@@ -101,6 +101,9 @@ function App() {
                 </Route>
                 <Route path="/games/slime-rancher-2">
                   <SlimeRancher2Page />
+                </Route>
+                <Route path="/games/angels-odyssey">
+                  <AngelsOdysseyPage />
                 </Route>
                 <Route path="/games/re-cubed">
                   <ReCubedPage />

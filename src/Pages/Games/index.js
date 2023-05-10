@@ -1,5 +1,6 @@
 export * from './SlimeRancher2';
 export * from './VanessasCurse';
+export * from './AngelsOdyssey';
 export * from './DualReality';
 export * from './ReCubed';
 export * from './TapShot';
