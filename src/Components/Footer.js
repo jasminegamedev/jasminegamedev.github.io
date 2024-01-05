@@ -52,9 +52,9 @@ export const Footer = () => {
             <a className={classes.link} href="https://twitter.com/Lady_Jazzrabbit" rel="noopener noreferrer" target="_blank">
                 <TwitterIcon />
             </a>
-            <a className={classes.link} href="https://www.tumblr.com/blog/lady-jazzrabbit" rel="noopener noreferrer" target="_blank">
+            {/* <a className={classes.link} href="https://www.tumblr.com/blog/lady-jazzrabbit" rel="noopener noreferrer" target="_blank">
                 <svg  aria-hidden="true" role="img" id="footer-sample-full" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify iconify--ri"><path fill="currentColor" d="M6.27 7.63A5.76 5.76 0 0 0 10.815 2h3.03v5.152h3.637v3.636h-3.636v5.454c0 .515.197 1.207.909 1.667c.474.307 1.484.458 3.03.455V22h-4.242a4.545 4.545 0 0 1-4.546-4.545v-6.667H6.27V7.63z"></path></svg>
-            </a>
+            </a> */}
             <a className={classes.link} href="https://github.com/jasminegamedev" rel="noopener noreferrer" target="_blank">
                 <GithubIcon />
             </a>

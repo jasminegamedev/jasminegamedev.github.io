@@ -33,12 +33,14 @@ export const ContactPage = ({children, url}) => {
             <h4 className={classes.text}>If you would like to get in touch with me, feel free to reach out through any of the following contact methods:</h4>
                 <h3 className={classes.linkHeader}>Email</h3>
                 <a className={classes.link} href="mailto:jasminegamedev@gmail.com">jasminegamedev@gmail.com</a>
-                <h3 className={classes.linkHeader}>Cohost</h3>
-                <a className={classes.link} href="https://cohost.org/jazzrabbit" rel="noopener noreferrer" target="_blank">cohost.org/jazzrabbit</a>
+                <h3 className={classes.linkHeader}>Bluesky</h3>
+                <a className={classes.link} href="https://bsky.app/profile/jazzrabbit.bsky.social" rel="noopener noreferrer" target="_blank">bsky.app/profile/jazzrabbit.bsky.social</a>
                 <h3 className={classes.linkHeader}>Twitter</h3>
                 <a className={classes.link} href="https://twitter.com/Lady_Jazzrabbit" rel="noopener noreferrer" target="_blank">twitter.com/Lady_Jazzrabbit</a>
-                <h3 className={classes.linkHeader}>Tumblr</h3>
-                <a className={classes.link} href="https://www.tumblr.com/blog/lady-jazzrabbit" rel="noopener noreferrer" target="_blank">tumblr.com/blog/lady-jazzrabbit</a>
+                <h3 className={classes.linkHeader}>Cohost</h3>
+                <a className={classes.link} href="https://cohost.org/jazzrabbit" rel="noopener noreferrer" target="_blank">cohost.org/jazzrabbit</a>
+                {/* <h3 className={classes.linkHeader}>Tumblr</h3>
+                <a className={classes.link} href="https://www.tumblr.com/blog/lady-jazzrabbit" rel="noopener noreferrer" target="_blank">tumblr.com/blog/lady-jazzrabbit</a> */}
                 <h3 className={classes.linkHeader}>Github</h3>
                 <a className={classes.link} href="https://github.com/jasminegamedev" rel="noopener noreferrer" target="_blank">github.com/jasminegamedev</a>
                 {/* <h3 className={classes.linkHeader}>LinkedIn (still under old name for personal reasons)</h3>
