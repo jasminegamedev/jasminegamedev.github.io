@@ -104,7 +104,7 @@ export const AngelsOdysseyPage = ({children}) => {
                 </Grid>
                 <Grid item xs={12} md={4} className={classes.gridItem}>
                     <div className={classes.images}>
-                        <img onClick={() => openDialog(1)} src='/content/images/games/angels-odyssey/TitleV2.png' alt='' className={classes.image}/>
+                        <img onClick={() => openDialog(1)} src='/content/images/games/angels-odyssey/Titlev2.png' alt='' className={classes.image}/>
                         <img onClick={() => openDialog(2)} src='/content/images/games/angels-odyssey/Screen1.png' alt='' className={classes.image}/>
                         <img onClick={() => openDialog(3)} src='/content/images/games/angels-odyssey/Screen3.png' alt='' className={classes.image}/>
                         <img onClick={() => openDialog(4)} src='/content/images/games/angels-odyssey/Screen4.png' alt='' className={classes.image}/>
@@ -120,7 +120,7 @@ export const AngelsOdysseyPage = ({children}) => {
                         </video>
                     </div>
                     <div>
-                        <img src='/content/images/games/angels-odyssey/TitleV2.png' alt='' className={classes.mediaFull}/>
+                        <img src='/content/images/games/angels-odyssey/Titlev2.png' alt='' className={classes.mediaFull}/>
                     </div>
                     <div>
                         <img src='/content/images/games/angels-odyssey/Screen1.png' alt='' className={classes.mediaFull}/>
