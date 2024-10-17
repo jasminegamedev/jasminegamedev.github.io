@@ -81,7 +81,7 @@ export const BurstFightersPage = ({children}) => {
                             <li>Jasmine Stephens: Gameplay Programmer, Level Designer, UI Programmer</li>
                             <li>Richard Zamora: Gameplay Programmer, Systems Programmer, Project Lead</li>
                             <li>Thadius Novak: Gameplay Programmer, AI Programmer</li>
-                            <li>Joshua Kauer: Gameplay Programmer, Systems Programmer</li>
+                            <li>Valerie Kauer: Gameplay Programmer, Systems Programmer</li>
                             <li>Morgan McClure: Gameplay Programmer, Level Designer</li>
                             <li>William Walls: UI Programmer, Gameplay Programmer</li>
                             <li>Cameron Watkins: UI Programmer, Enemy Designer</li>

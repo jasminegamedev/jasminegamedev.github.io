@@ -82,7 +82,7 @@ export const HoloDefenderPage = ({children}) => {
                         <ul className={classes.details}>
                             <li>Jasmine Stephens: Game Designer, Gameplay Programmer, UI Programmer</li>
                             <li>Thadius Novak: AI Programmer, Gameplay Programmer</li>
-                            <li>Joshua Kauer: Gameplay Programmer</li>
+                            <li>Valerie Kauer: Gameplay Programmer</li>
                             <li>Richard Zamora: Level Designer, UI Programmer</li>
                         </ul>
                         <h3 className={classes.details}>Additional Resources:</h3>

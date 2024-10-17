@@ -108,7 +108,7 @@ export const RoboRepairPage = ({children}) => {
                             <li>Jasmine Stephens: UI Programmer, Gameplay Programmer, 3D Artist</li>
                             <li>Morgan McClure: Gameplay Programmer, AI Programmer</li>
                             <li>Justin Furtado: Gameplay Programmer, AI Programmer</li>
-                            <li>Joshua Kauer: Gameplay Programmer, Level Design</li>
+                            <li>Valerie Kauer: Gameplay Programmer, Level Design</li>
                         </ul>
                         <h3 className={classes.details}>Additional Resources:</h3>
                         <ul className={classes.details}>

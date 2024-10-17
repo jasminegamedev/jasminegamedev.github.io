@@ -116,26 +116,26 @@ export const AngelsOdysseyPage = ({children}) => {
                 <ImageDialog isOpen={isDialogOpen} onClose={() => setDialogOpen(false)} initialSlideId={defaultImageId}>
                     <div>
                         <video loop autoPlay muted className={classes.mediaFull}>
-                            <source src={"/content/images/games/dual-reality/DualReality.mp4"} type="video/mp4"/>
+                            <source src={"/content/images/games/angels-odyssey/AngelsOdyssey.mp4"} type="video/mp4"/>
                         </video>
                     </div>
                     <div>
-                        <img src='https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/featured_image/2022/01/451742/title.png?itok=HOeJ3CkK&timestamp=1643515218' alt='' className={classes.mediaFull}/>
+                        <img src='/content/images/games/angels-odyssey/TitleV2.png' alt='' className={classes.mediaFull}/>
                     </div>
                     <div>
-                        <img src='https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/451742/dualreality2.png?itok=tzHx4nuD&timestamp=1643587275' alt='' className={classes.mediaFull}/>
+                        <img src='/content/images/games/angels-odyssey/Screen1.png' alt='' className={classes.mediaFull}/>
                     </div>
                     <div>
-                        <img src='https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/451742/dualreality3.png?itok=uNPzNZpd&timestamp=1643587275' alt='' className={classes.mediaFull}/>
+                        <img src='/content/images/games/angels-odyssey/Screen2.png' alt='' className={classes.mediaFull}/>
                     </div>
                     <div>
-                        <img src='https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/451742/dualreality4.png?itok=h1AOubdg&timestamp=1643587275' alt='' className={classes.mediaFull}/>
+                        <img src='/content/images/games/angels-odyssey/Screen3.png' alt='' className={classes.mediaFull}/>
                     </div>
                     <div>
-                        <img src='https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/451742/dualreality9.png?itok=quTGviOX&timestamp=1643587275' alt='' className={classes.mediaFull}/>
+                        <img src='/content/images/games/angels-odyssey/Screen4.png' alt='' className={classes.mediaFull}/>
                     </div>
                     <div>
-                        <img src='https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/451742/dualreality10.png?itok=gT-tdn2V&timestamp=1643587275' alt='' className={classes.mediaFull}/>
+                        <img src='/content/images/games/angels-odyssey/Screen5.png' alt='' className={classes.mediaFull}/>
                     </div>
                 </ImageDialog>
             }

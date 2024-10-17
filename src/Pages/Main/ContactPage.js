@@ -39,8 +39,8 @@ export const ContactPage = ({children, url}) => {
                 <a className={classes.link} href="https://twitter.com/Lady_Jazzrabbit" rel="noopener noreferrer" target="_blank">twitter.com/Lady_Jazzrabbit</a>
                 <h3 className={classes.linkHeader}>Bluesky</h3>
                 <a className={classes.link} href="https://bsky.app/profile/jazzrabbit.bsky.social" rel="noopener noreferrer" target="_blank">bsky.app/profile/jazzrabbit.bsky.social</a>
-                <h3 className={classes.linkHeader}>Cohost</h3>
-                <a className={classes.link} href="https://cohost.org/jazzrabbit" rel="noopener noreferrer" target="_blank">cohost.org/jazzrabbit</a>
+                {/* <h3 className={classes.linkHeader}>Cohost</h3>
+                <a className={classes.link} href="https://cohost.org/jazzrabbit" rel="noopener noreferrer" target="_blank">cohost.org/jazzrabbit</a> */}
                 {/* <h3 className={classes.linkHeader}>Tumblr</h3>
                 <a className={classes.link} href="https://www.tumblr.com/blog/lady-jazzrabbit" rel="noopener noreferrer" target="_blank">tumblr.com/blog/lady-jazzrabbit</a> */}
                 <h3 className={classes.linkHeader}>Github</h3>

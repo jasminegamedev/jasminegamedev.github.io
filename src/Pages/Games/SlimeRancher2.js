@@ -65,7 +65,7 @@ export const SlimeRancher2Page = ({children}) => {
                 <Grid item xs={12} md={8} className={classes.gridItem}>
                     <div className={classes.body}>
                         <h3 className={classes.details}>Description:</h3>
-                        <p>I am currently working as a Junior Gameplay Engineer at Monomi Park, working on Slime Rancher 2, which is available now in early access.</p>
+                        <p>I am currently working as a Game Engineer at Monomi Park, working on Slime Rancher 2, which is available now in early access.</p>
                         <p>Slime Rancher 2 is a sequel to the award-winning, smash-hit original that has been enjoyed by over 15 million fans worldwide. Continue the adventures of Beatrix LeBeau as she journeys to Rainbow Island, a mysterious land brimming with ancient technology, unknown natural resources, and an avalanche of wiggling, jiggling, new slimes to discover.</p>
                         <p>As Beatrix attempts to unravel the island’s secrets and uncover its true purpose, she’ll build, ranch, and farm within a beautiful conservatory, whose sparkling glass walls give her full view of the prismatic paradise she now calls home.</p>
                         <h3 className={classes.details}>Features:</h3>
