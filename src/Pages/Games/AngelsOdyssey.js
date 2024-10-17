@@ -105,10 +105,10 @@ export const AngelsOdysseyPage = ({children}) => {
                 <Grid item xs={12} md={4} className={classes.gridItem}>
                     <div className={classes.images}>
                         <img onClick={() => openDialog(1)} src='/content/images/games/angels-odyssey/TitleV2.png' alt='' className={classes.image}/>
-                        <img onClick={() => openDialog(1)} src='/content/images/games/angels-odyssey/Screen1.png' alt='' className={classes.image}/>
-                        <img onClick={() => openDialog(2)} src='/content/images/games/angels-odyssey/Screen3.png' alt='' className={classes.image}/>
-                        <img onClick={() => openDialog(3)} src='/content/images/games/angels-odyssey/Screen4.png' alt='' className={classes.image}/>
-                        <img onClick={() => openDialog(4)} src='/content/images/games/angels-odyssey/Screen5.png' alt='' className={classes.image}/>
+                        <img onClick={() => openDialog(2)} src='/content/images/games/angels-odyssey/Screen1.png' alt='' className={classes.image}/>
+                        <img onClick={() => openDialog(3)} src='/content/images/games/angels-odyssey/Screen3.png' alt='' className={classes.image}/>
+                        <img onClick={() => openDialog(4)} src='/content/images/games/angels-odyssey/Screen4.png' alt='' className={classes.image}/>
+                        <img onClick={() => openDialog(5)} src='/content/images/games/angels-odyssey/Screen5.png' alt='' className={classes.image}/>
                     </div>
                 </Grid>
             </Grid>

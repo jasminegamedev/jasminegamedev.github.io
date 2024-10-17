@@ -6,6 +6,12 @@
         "shortText": "I built my own custom portfolio website which you are currently looking at."
     },
     {
+        "name": "Fuji",
+        "icon": "/content/images/projects/fuji/fuji-icon-512.png",
+        "url": "#/projects/fuji",
+        "shortText": "Fuji is an Open Source Mod Loader I mader for the indie game, Celeste 64."
+    },
+    {
         "name": "A Hat in Time Modding",
         "icon": "/content/images/projects/modding/ModdingIcon.png",
         "url": "#/projects/ahit-modding",

@@ -22,6 +22,7 @@ import { AHITModdingPage } from './Pages/Projects/AHITModding';
 import { NomadPage } from './Pages/Projects/NomadPage';
 import { Grid } from '@material-ui/core';
 import { PathfinderPage } from './Pages/Projects/Pathfinder';
+import { FujiPage } from './Pages/Projects/Fuji';
 
 const useStyles = createUseStyles({
   app: {
@@ -140,6 +141,9 @@ function App() {
                 </Route>
                 <Route path="/projects/dealersocket">
                   <DealerSocketPage />
+                </Route>
+                <Route path="/projects/fuji">
+                  <FujiPage />
                 </Route>
                 <Route path="/projects/ahit-modding">
                   <AHITModdingPage />
