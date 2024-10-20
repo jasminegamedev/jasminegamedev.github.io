@@ -104,7 +104,7 @@ export const TapshotPage = ({children}) => {
                             <li>Tools Used: Unity3D, C#</li>
                             <li>Time Frame: 48 hours</li>
                             <li>Source Code: <a className={classes.link} href="https://github.com/jasminegamedev/tap-shot">Github</a></li>
-                            <li><a className={classes.link} href="https://play.google.com/store/apps/details?id=com.Jawchewa.TapShot">Google Play Page</a></li>
+                            <li><a className={classes.link} href="https://play.google.com/store/apps/details?id=com.Jazzrabbit.TapShot">Google Play Page</a></li>
                             <li><a className={classes.link} href="https://jawchewa.itch.io/tap-shot">Original itch.io Page</a></li>
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
