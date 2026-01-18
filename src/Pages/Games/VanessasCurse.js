@@ -76,7 +76,7 @@ export const VanessasCursePage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Core Team Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Gameplay Programmer, UI Programmer, Network Systems Programmer</li>
+                            <li>Jasmine Brooks: Gameplay Programmer, UI Programmer, Network Systems Programmer</li>
                             <li>Mathieu 'Werti100' Martel: Project Lead, Level Designer, 3D Artist</li>
                         </ul>
                     </div>

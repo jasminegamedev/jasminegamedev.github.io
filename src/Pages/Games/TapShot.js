@@ -109,7 +109,7 @@ export const TapshotPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Solo Designer and Developer</li>
+                            <li>Jasmine Brooks: Solo Designer and Developer</li>
                         </ul>
                         <h3 className={classes.details}>Additional Resources:</h3>
                         <ul className={classes.details}>

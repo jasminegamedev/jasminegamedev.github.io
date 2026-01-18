@@ -78,7 +78,7 @@ export const BurstFightersPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Gameplay Programmer, Level Designer, UI Programmer</li>
+                            <li>Jasmine Brooks: Gameplay Programmer, Level Designer, UI Programmer</li>
                             <li>Richard Zamora: Gameplay Programmer, Systems Programmer, Project Lead</li>
                             <li>Thadius Novak: Gameplay Programmer, AI Programmer</li>
                             <li>Valerie Kauer: Gameplay Programmer, Systems Programmer</li>

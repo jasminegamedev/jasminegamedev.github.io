@@ -40,7 +40,7 @@ export const Footer = () => {
     const classes = useStyles();
     return (
         <div className={classes.footer}>
-            <a className={classes.link} href="https://www.linkedin.com/in/j-stephens/" rel="noopener noreferrer" target="_blank">
+            <a className={classes.link} href="https://www.linkedin.com/in/ja-brooks/" rel="noopener noreferrer" target="_blank">
                 <LinkedInIcon />
             </a>
             <a className={classes.link} href="mailto:jasminegamedev@gmail.com">
@@ -59,7 +59,7 @@ export const Footer = () => {
                 <GithubIcon />
             </a>
             <span className={classes.rightAlign}>
-                {'Website designed and created by Jasmine Stephens -'} 
+                {'Website designed and created by Jasmine Brooks -'} 
                 <a className={classes.sourceLink} href="https://github.com/jasminegamedev/jasminegamedev.github.io" rel="noopener noreferrer" target="_blank">
                     {'View Source'}
                 </a>

@@ -83,7 +83,7 @@ export const ReCubedPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Gameplay Programmer, Designer, Artist, UI Programmer, Level Designer</li>
+                            <li>Jasmine Brooks: Gameplay Programmer, Designer, Artist, UI Programmer, Level Designer</li>
                         </ul>
                         <h3 className={classes.details}>Additional Resources:</h3>
                         <ul className={classes.details}>

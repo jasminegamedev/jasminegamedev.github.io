@@ -60,12 +60,12 @@ export const SlimeRancher2Page = ({children}) => {
             <h2 className={classes.title}>
                 Slime Rancher 2
             </h2>
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/LOI5tz7eZ5A" title="Slime Rancher 2 Early Access Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/dZIiUWODikw" title="Slime Rancher 2 - Official Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <Grid container spacing={0}>
                 <Grid item xs={12} md={8} className={classes.gridItem}>
                     <div className={classes.body}>
                         <h3 className={classes.details}>Description:</h3>
-                        <p>I am currently working as a Game Engineer at Monomi Park, working on Slime Rancher 2, which is available now in early access.</p>
+                        <p>I am a Technical Designer (and former as a Game Engineer) at Monomi Park. I have been primarily working on Slime Rancher 2, which is available now!</p>
                         <p>Slime Rancher 2 is a sequel to the award-winning, smash-hit original that has been enjoyed by over 15 million fans worldwide. Continue the adventures of Beatrix LeBeau as she journeys to Rainbow Island, a mysterious land brimming with ancient technology, unknown natural resources, and an avalanche of wiggling, jiggling, new slimes to discover.</p>
                         <p>As Beatrix attempts to unravel the island’s secrets and uncover its true purpose, she’ll build, ranch, and farm within a beautiful conservatory, whose sparkling glass walls give her full view of the prismatic paradise she now calls home.</p>
                         <h3 className={classes.details}>Features:</h3>
@@ -76,7 +76,7 @@ export const SlimeRancher2Page = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Details:</h3>
                         <ul className={classes.details}>
-                            <li>Platform: <a className={classes.link} href="https://store.steampowered.com/app/1657630/Slime_Rancher_2/">Steam</a>, <a className={classes.link} href="https://www.xbox.com/en-US/games/slime-rancher-2">XBox</a>, <a className={classes.link} href="https://store.epicgames.com/en-US/p/slime-rancher-2">Epic</a></li>
+                            <li>Platform: <a className={classes.link} href="https://store.steampowered.com/app/1657630/Slime_Rancher_2/">Steam</a>, <a className={classes.link} href="https://www.xbox.com/en-US/games/slime-rancher-2">XBox</a>,  <a className={classes.link} href="https://store.playstation.com/en-us/product/UP2293-PPSA20152_00-0019683213812595">Playstation</a>, <a className={classes.link} href="https://store.epicgames.com/en-US/p/slime-rancher-2">Epic</a></li>
                             <li>Developer: Monomi Park</li>
                             <li>Publisher: Monomi Park</li>
                             <li>Tools: Unity, C#</li>

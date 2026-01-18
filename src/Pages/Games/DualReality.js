@@ -82,7 +82,7 @@ export const DualRealityPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Game Programmer, Level Designer, Artist, UI Programmer</li>
+                            <li>Jasmine Brooks: Game Programmer, Level Designer, Artist, UI Programmer</li>
                         </ul>
                         <h3 className={classes.details}>Music:</h3>
                         <ul className={classes.details}>

@@ -44,7 +44,7 @@ export const Logo = () => {
             <Link className={classes.link} to="/">
                 <p className={classes.title}>
                     <CodeIcon style={{ fontSize: 'min(7vw, 40px)' }}/>
-                    {` Jasmine Stephens `}
+                    {` Jasmine Brooks `}
                     <SportsEsportsIcon style={{ fontSize: 'min(7vw, 40px)' }}/>
                 </p>
                 <p className={classes.subtitle}>Software & Game Developer</p>

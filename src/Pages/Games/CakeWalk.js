@@ -84,7 +84,7 @@ export const CakeWalkPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Gameplay Programmer, UI Programmer, Designer</li>
+                            <li>Jasmine Brooks: Gameplay Programmer, UI Programmer, Designer</li>
                             <li>Richard Zamora: Gameplay Programmer, Artist, Designer</li>
                             <li>William Walls: Level Designer, Programmer</li>
                         </ul>

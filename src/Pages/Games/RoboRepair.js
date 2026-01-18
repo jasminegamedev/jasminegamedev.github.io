@@ -105,7 +105,7 @@ export const RoboRepairPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: UI Programmer, Gameplay Programmer, 3D Artist</li>
+                            <li>Jasmine Brooks: UI Programmer, Gameplay Programmer, 3D Artist</li>
                             <li>Morgan McClure: Gameplay Programmer, AI Programmer</li>
                             <li>Justin Furtado: Gameplay Programmer, AI Programmer</li>
                             <li>Valerie Kauer: Gameplay Programmer, Level Design</li>

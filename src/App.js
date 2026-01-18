@@ -81,7 +81,7 @@ function App() {
                   <MenuLink url='/content/JasmineStephensResume.pdf'>Résumé</MenuLink>
                   </Grid>
                 {/* <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
-                  <MenuLink url='https://www.linkedin.com/in/j-stephens/'>LinkedIn</MenuLink>
+                  <MenuLink url='https://www.linkedin.com/in/ja-brooks/'>LinkedIn</MenuLink>
                 </Grid> */}
               </AppBar>
             </div>

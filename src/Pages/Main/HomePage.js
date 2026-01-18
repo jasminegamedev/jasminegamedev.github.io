@@ -25,8 +25,8 @@ const useStyles = createUseStyles({
         fontWeight: 'bold',
     },
     image: {
-        width: '250px',
-        height: '250px',
+        width: '300px',
+        height: '300px',
         marginRight: '20px', 
         border: 'white 5px solid',
         borderRadius: '5px',
@@ -43,8 +43,8 @@ export const HomePage = () => {
                     <img className={classes.image} src={"/logo512.png"} alt={""} align="left"/>
                     <b>Hello World!</b>
                     <br/>My name's Jasmine (she/her), also known online as Jazzrabbit.
-                    <br/>I'm a trans Software/Web/Game Developer who specializes in Gameplay Programming, Tools Programming, and UI Programming, as well as Front End Web Development. I'm currently working as a Game Engineer at <a className={classes.link} href="http://www.monomipark.com/">Monomi Park</a> on Slime Rancher 2!
-                    <br/>I love video games and have been involved in game development and game modding as a hobbyist for almost a decade. My main tools of choice are C# and Unity for game development, and React/TypeScript for web development, but I'm always open to learning new tools and technologies!
+                    <br/>I'm a transgender Technical Designer and Game Engineer, and I love using my technical experience to rapidly prototype and create fun, engaging experiences. I also have experience in Gameplay Programming, Tools Programming, and UI Programming, as well as Front End Web Development. I'm currently working as a Technical Designer at <a className={classes.link} href="http://www.monomipark.com/">Monomi Park</a> working on Slime Rancher 2!
+                    <br/>I love video games and have been involved in game development and game modding for almost a decade. My main tools of choice are C# and Unity for game development, and React/TypeScript for web development, but I'm always open to learning new tools and technologies!
                 </p>
             </span>
             <span id="Portfolio">

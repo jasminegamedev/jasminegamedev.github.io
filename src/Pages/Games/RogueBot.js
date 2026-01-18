@@ -92,7 +92,7 @@ export const RogueBotPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Gameplay Programmer, AI Programmer, UI Programmer</li>
+                            <li>Jasmine Brooks: Gameplay Programmer, AI Programmer, UI Programmer</li>
                             <li>Shawn McCuistion: Map Generation Programmer, Gameplay Programmer, Artist</li>
                             <li>Denver Boyer: Programmer</li>
                         </ul>

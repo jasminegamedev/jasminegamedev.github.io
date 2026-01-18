@@ -80,7 +80,7 @@ export const GraveGuardianPage = ({children}) => {
                         </ul>
                         <h3 className={classes.details}>Credits:</h3>
                         <ul className={classes.details}>
-                            <li>Jasmine Stephens: Gameplay Programmer, Game Designer, Writer</li>
+                            <li>Jasmine Brooks: Gameplay Programmer, Game Designer, Writer</li>
                             <li>Morgan McClure: Level Designer, Gameplay Programmer, Game Designer</li>
                         </ul>
                         <h3 className={classes.details}>Additional Resources:</h3>
