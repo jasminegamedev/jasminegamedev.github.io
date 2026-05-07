@@ -1,5 +1,12 @@
 [
     {
+        "name": "Aerobatic",
+        "icon": "/content/images/games/aerobatic/icon.png",
+        "previewImage": "",
+        "url": "https://jazzrabbit.itch.io/aerobatic",
+        "shortText": "Aerobatic is a 3D infinite flight game. Take on the role of Aero the Bat, a fearless thief as he makes his great escape."
+    },
+        {
         "name": "Angel's Odyssey",
         "icon": "/content/images/games/angels-odyssey/icon.png",
         "previewImage": "",
@@ -68,5 +75,12 @@
         "previewImage": "/content/images/games/rogue-bot/RogueBot.mp4",
         "url": "#/games/rogue-bot",
         "shortText": "Rogue Bot is a roguelike shoot-em-up about a rogue robot exploring a dangerous planet and take down enemies using an assortment of weapons."
+    },
+    {
+        "name": "Fruit Fling",
+        "icon": "/content/images/games/fruit-fling/icon.png",
+        "previewImage": "",
+        "url": "https://jazzrabbit.itch.io/fruit-fling",
+        "shortText": "Fruit Fling is a physics based puzzle game. Launch fruit into a jar and try to get 3 in a row!"
     }
 ]
