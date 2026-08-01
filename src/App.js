@@ -78,7 +78,7 @@ function App() {
                   <MenuItem url='/#Contact'>Contact</MenuItem>
                   </Grid>
                 <Grid item xs={6} sm={3} md={3} className={classes.gridItem}>
-                  <MenuLink url='/content/JasmineStephensResume.pdf'>Résumé</MenuLink>
+                  <MenuLink url='/content/JasmineBrooksResume.pdf'>Résumé</MenuLink>
                   </Grid>
                 {/* <Grid item xs={6} sm={4} md={2} className={classes.gridItem}>
                   <MenuLink url='https://www.linkedin.com/in/ja-brooks/'>LinkedIn</MenuLink>
